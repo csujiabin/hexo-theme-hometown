@@ -1,0 +1,28 @@
+menu:
+  home:
+    name: 首页
+    link: /
+    icon:
+  party:
+    name: 党支部
+    link: /dangzhibu
+    icon:
+  school:
+    name: 村学校
+    link: /xuexiao
+    icon:
+  geracomium:
+    name: 敬老院
+    link: /jinglaoyuan
+    icon:
+  association:
+    name: 促进会
+    link: /cujinhui
+    icon:
+  about:
+    name: 村概况
+    link: /gaikuang
+
+Paginator:
+  Prev: 上一页
+  Next: 下一页

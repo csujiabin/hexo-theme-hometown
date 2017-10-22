@@ -1,0 +1,14 @@
+<header class="header">
+  <div class="blog-title">
+    <a href="<%- url_for() %>" class="logo"><%= config.title %></a>
+  </div>
+  <nav class="navbar">
+    <ul class="menu">
+      <% for (item in theme.menu) { %>
+        <li class="menu-item">
+          <a href="<%- url_for(theme.menu[item].link) %>" class="menu-item-link"><%= theme.menu[item].name %></a>
+        </li>
+      <% } %>
+    </ul>
+  </nav>
+</header>
